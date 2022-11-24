@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SPTencentLBS_Example' do
+  pod 'SPTencentLBS', :path => '../'
+
+  target 'SPTencentLBS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
